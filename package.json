@@ -1,0 +1,33 @@
+{
+  "name": "jira-connector",
+  "version": "2.16.1",
+  "description": "Easy to use NodeJS wrapper for the Jira REST API.",
+  "keywords": [
+    "JIRA",
+    "REST",
+    "OAuth"
+  ],
+  "files": [
+    "api/",
+    "lib/",
+    "index.js",
+    "index.d.ts",
+    "jsdoc.json"
+  ],
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb Brinkman <floralvikings@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.24",
+    "oauth": "^0.9.12",
+    "request": "^2.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:floralvikings/jira-connector.git"
+  }
+}
